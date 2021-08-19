@@ -1,1 +1,5 @@
-console.log(Math.floor(Math.random() * 5));
+let age = 18;
+
+if (age >= 18) {
+    console.log('you can enter the club!');
+}
