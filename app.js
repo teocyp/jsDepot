@@ -1,15 +1,7 @@
-const midterms = {
-    danielle: 96,
-    thomas: 78
-}
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]; //DON'T CHANGE THIS LINE PLEASE!
 
-console.log(midterms['danielle']);
-console.log(midterms.thomas);
+// WRITE YOUR LOOP BELOW THIS LINE:
 
-midterms.teo = 98;
-
-console.log(midterms);
-
-for (let i = 0; i < 8; i++) {
-    console.log(i);
+for (let num of numbers) {
+    console.log(num * num);
 }
