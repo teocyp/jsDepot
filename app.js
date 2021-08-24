@@ -1,10 +1,11 @@
-function isSnakeEyes(die1, die2) {
-    if (die1 === 1 && die2 === 1) {
-        console.log('Snake Eyes!')
-    } else {
-        console.log('Not Snake Eyes!');
-    }
-}
+function returnDay(day) {
+    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-isSnakeEyes(1, 1);
-isSnakeEyes(1, 2);
+    if (day < 1 || day > 7) {
+        return null;
+    } else {
+        return days[day - 1];
+    }
+};
+
+console.log(returnDay(8));
