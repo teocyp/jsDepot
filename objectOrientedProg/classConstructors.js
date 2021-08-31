@@ -5,14 +5,15 @@ class User {
         this.email = email;
         this.score = 0;
     }
+
     /* 
-    
+     
     1 - Methods are declared after the constructor
-
+    
     2 - *** USE REGULAR FUNCTION SYNTAX WHEN CREATING METHODS - We need to use "Regular Function Declarations" in order to refer 'this' keyword to the current object.
-
+    
     3- *** DO NOT USE ARROW FUNCTION SYNTAX WHEN CREATING METHODS - If we use "Arrow Functions" the 'this' keyword will refer to the window object. 
-
+    
     */
     login() {
         console.log(`${this.userName} just logged in..`);
